@@ -3,10 +3,10 @@
 import React, {useState} from 'react';
 import "./SingleProduct.scss";
 import { useSelector, useDispatch } from 'react-redux';
-import { setIsModalVisible } from '../../store/modalSlice';
+import { setIsModalVisible } from '../../store/ModalSlice';
 import { addToCart } from '../../store/CartSlice';
 import { useNavigate } from 'react-router-dom';
-import { formatPrice } from '../../utils/helpers';
+import { formatPrice } from '../../utils/Helpers';
 
 const SingleProduct = () => {
   const dispatch = useDispatch();
