@@ -1,5 +1,5 @@
 import React from 'react';
-import { STATUS } from '../../utils/status';
+import { STATUS } from '../../utils/Status';
 import "./Category.scss";
 import { Link } from 'react-router-dom';
 import Loader from "../loader/Loader";
