@@ -1,10 +1,10 @@
 import React from "react";
-import { STATUS } from "../../utils/status";
+import { STATUS } from "../../utils/Status";
 import "./ProductList.scss";
-import { setModalData, setIsModalVisible } from "../../store/modalSlice";
+import { setModalData, setIsModalVisible } from "../../store/ModalSlice";
 import SingleProduct from "../singleProduct/SingleProduct";
 import { useSelector, useDispatch } from "react-redux";
-import { formatPrice } from "../../utils/helpers";
+import { formatPrice } from "../../utils/Helpers";
 import Loader from "../loader/Loader";
 import Error from "../error/Error";
 
