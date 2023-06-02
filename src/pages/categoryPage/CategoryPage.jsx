@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import ProductList from '../../components/productList/ProductList';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchProductsByCategory } from '../../store/categorySlice';
+import { fetchProductsByCategory } from '../../store/CategorySlice';
 import { useParams, Link } from 'react-router-dom';
 import "./CategoryPage.scss";
 
