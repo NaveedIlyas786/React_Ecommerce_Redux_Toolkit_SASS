@@ -71,9 +71,10 @@
     }
     .cart-right{
         margin: 24px 0;
+        padding: 1rem  2rem;
         .cart-summary{
             display: flex;flex-direction: column;
-            min-height: 420px;
+            min-height: 380px;
 
             > & {
                 padding: 16px;
