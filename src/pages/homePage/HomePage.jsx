@@ -7,7 +7,7 @@ import { useSelector, useDispatch } from "react-redux";
 import {
   fetchCategories,
   fetchProductsByCategory,
-} from "../../store/categorySlice";
+} from "../../store/CategorySlice";
 import SingleCategory from "../../components/singleCategory/SingleCategory";
 import { fetchProducts } from "../../store/ProductSlice";
 

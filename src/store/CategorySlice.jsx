@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import { BASE_URL } from "../utils/apiURL";
 import { STATUS } from "../utils/status";
 
-const categorySlice = createSlice({
+const CategorySlice = createSlice({
   name: "category",
   initialState: {
     data: [],
@@ -42,8 +42,8 @@ export const {
   setCategoriesStatusAll,
   setCategoriesProductSingle,
   setCategoriesStatusSingle,
-} = categorySlice.actions;
-export default categorySlice.reducer;
+} = CategorySlice.actions;
+export default CategorySlice.reducer;
 
 export const fetchCategories = () => {
   return async function fetchCategoryThunk(dispatch) {
