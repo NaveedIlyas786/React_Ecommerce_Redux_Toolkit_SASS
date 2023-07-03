@@ -8,6 +8,13 @@
     padding: 18px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px 20px 4px 4px;
+    transition: all 0.2s ease-in-out;
+    &:hover{
+      box-shadow: rgba(104, 103, 100, 0.527) 0px 2px 8px 0px;
+      cursor: pointer;
+      transform: scale(1.03);
+      transition: all 0.2s ease-in;
+    }
     &-body {
       // background-color: red;
       // height: 100px;
