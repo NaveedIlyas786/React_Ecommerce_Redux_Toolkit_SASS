@@ -43,6 +43,7 @@ export const {
   setCategoriesProductSingle,
   setCategoriesStatusSingle,
 } = CategorySlice.actions;
+
 export default CategorySlice.reducer;
 
 export const fetchCategories = () => {
@@ -50,7 +51,10 @@ export const fetchCategories = () => {
     dispatch(setStatus(STATUS.LOADING));
     try {
       const response = await fetch(`${BASE_URL}categories`);
+
       const data = await response.json();
+      console.log(data);
+
       dispatch(setCategories(data.slice(0, 5)));
       dispatch(setStatus(STATUS.IDLE));
     } catch (error) {
