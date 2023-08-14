@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+// import  { useEffect, useState } from "react";
 import "./App.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home, Cart, Category } from "./pages/Parent_Index";
